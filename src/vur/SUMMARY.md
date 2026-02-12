@@ -1,4 +1,4 @@
 # Dokumentasi VUR
 
-- [Indonesia](vur/id/intro.md)
-- [English](vur/en/intro.md)
+- [Indonesia](./id/intro.md)
+- [English](./en/intro.md)

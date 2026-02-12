@@ -1,44 +1,51 @@
-# VUR (Void User Repository)
+## Apa itu VUR?
 
-VUR adalah singkatan dari Void User Repository.
+**VUR (Void User Repository)** adalah repository komunitas untuk sistem berbasis **Void Linux** & **Turunan nya**, termasuk T4n OS, yang memungkinkan pengguna membagikan dan mengelola template paket berbasis `metadata`.
 
-Ini adalah konsep repositori paket yang digerakkan oleh komunitas, terinspirasi oleh Arch Linux AUR.
+Secara konsep, VUR mirip dengan **AUR (Arch User Repository)** di Arch Linux.
 
----
+## Tujuan VUR
 
-## 🎯 Tujuan
+VUR dibuat untuk:
 
-VUR memungkinkan pengguna untuk:
+* Menyediakan package yang belum ada di repository resmi Void
+* Mendorong kontribusi komunitas
+* Mempermudah distribusi template
+* Memperluas ekosistem T4n OS & Void
 
-- Berbagi templat paket
-- ​​Membangun perangkat lunak yang tidak tersedia di repositori resmi
-- Berkontribusi pada pertumbuhan ekosistem
+Dengan kata lain, VUR adalah jembatan antara komunitas dan sistem.
 
----
+## Cara Kerja VUR
 
-## 🧠 Konsep
+Berbeda dengan repository binary biasa, VUR biasanya berisi:
 
-VUR menyediakan:
+* Template
+* File build script
+* Metadata paket
 
-- Templat yang dikelola komunitas
-- Struktur terorganisir (inti, ekstra, multilib)
-- Alur kerja kontribusi terbuka
+Jadi VUR bukan repo binary langsung install, tapi repo template untuk dibangun secara lokal.
 
----
 
-## 📦 Struktur Repositori
+## VUR vs Repository Resmi Void
 
-VUR dapat mencakup:
+| Repository Resmi               | VUR                           |
+| ------------------------------ | ----------------------------- |
+| Dikelola tim Void              | Dikelola komunitas            |
+| Paket sudah dibuild (binary)   | Template build (source-based) |
+| Stabil & terverifikasi         | Bisa eksperimental            |
+| Terbatas pada maintainer resmi | Terbuka untuk kontribusi      |
 
-- inti → templat terkait sistem
-- ekstra → perangkat lunak tambahan
-- multilib → templat dukungan 32-bit
+## Kenapa VUR Penting untuk T4n OS?
 
----
+Karena VUR:
 
-## 🔥 Manfaat
+* Membuat T4n OS lebih fleksibel
+* Mengurangi ketergantungan penuh pada repo resmi
+* Membentuk identitas dan ekosistem sendiri
+* Memberi ruang inovasi
 
-- Ketersediaan perangkat lunak yang lebih cepat
-- Inovasi komunitas
-- Perluasan ekosistem
-- Model kolaborasi terbuka
+VUR adalah fondasi komunitas.
+
+## Singkatnya
+
+> VUR adalah repository komunitas berbasis `xbps-src` untuk Void Linux dan T4n OS, yang memungkinkan pengguna membangun dan membagikan package secara mandiri.

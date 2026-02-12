@@ -1,38 +1,27 @@
 # Welcome to T4n Tech Documentation
 
-T4n Tech is an open technology ecosystem focused on building:
+T4n Tech is an open technology company focused on building:
 
-- 🖥 A powerful and flexible Linux distribution (T4n OS)
-- 🤖 A smart local AI assistant (T4n AI)
-- 📦 A community-driven package repository (VUR)
+- T4n OS
+- VUR - Void User Repository
 
 Our mission:
 
-> Make complex technology simple and accessible.
+> Making complex technology simple and accessible.
 
----
+## 🛠️ Project
 
-## 🚀 Projects
+### T4n OS
+T4n OS is a GNU Linux based on Void Linux, designed with minimalist, fast, and lightweight principles. T4n OS uses runit as its init system for performance and control. Website:
+- Web-ID: [Overview](t4n-os/id/intro.md)
+- Web-EN: [Overview](t4n-os/en/intro.md)
 
-### 🖥 T4n OS
-A Linux-based operating system designed for performance, flexibility, and simplicity.
-
-### 🤖 T4n AI
-A local AI assistant built to simplify Linux usage and development workflows.
-
-### 📦 VUR (Void User Repository)
-A community repository concept inspired by AUR, designed for Void Linux and T4n OS.
-
----
+### VUR (Void User Repository)
+VUR (Void User Repository) is a community-driven repository inspired by the Arch User Repository (AUR). VUR is here to complement the shortcomings of the official repository by providing templates and additional packages not available by default.
+- Web-ID: [Overview](vur/id/intro.md)
+- Web-EN: [Overview](vur/en/intro.md)
 
 ## 🌍 Philosophy
 
-T4n Tech believes:
-
-- Technology should empower, not confuse.
-- Open-source should be structured, not chaotic.
-- Documentation is part of the product.
-
----
-
-Select a project from the sidebar to get started.
+- Keep Things Simple
+- Make Something Difficult Easy

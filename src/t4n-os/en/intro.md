@@ -1,51 +1,28 @@
-# T4n OS
+# What is T4n OS?
 
-T4n OS is a Linux-based operating system designed for:
+T4n OS is a Linux operating system developed under the T4n Tech project, based on Void Linux and adopting a minimalist, fast, and lightweight approach.
 
-- High performance
-- Lightweight and efficient usage
-- Flexibility for servers and general users
-- Easy development and customization
+#### T4n OS has several unique characteristics:
 
----
-
-## 🎯 Purpose
-
-T4n OS is built for:
-
-- Developers
-- System administrators
-- Security enthusiasts
-- Advanced Linux users
-
----
-
-## 🧠 Philosophy
-
-T4n OS focuses on:
-
-- Simplicity
-- Stability
-- Transparency
-- System efficiency
-
----
-
-## ⚙ Technology
-
-T4n OS is built with:
-
-- Minimal Linux base
-- Modern package management
-- Modular design concept
-- VUR integration support
-
----
+T4n OS uses:
+- xbps as a package manager (binary)
+- xbps-src for building from source
+- Init system: runit (not systemd)
+- Philosophy: simple, fast, and lightweight
 
 ## 🔥 Advantages
 
 - Lightweight
-- No unnecessary bloat
-- Clean architecture
-- Server-ready
-- Highly customizable
+- No bloatware
+- Clean structure
+- Easy to customize
+
+## Introduces the VUR (Void User Repository) Concept
+
+Similar to:
+- Arch Linux has AUR
+- T4n OS / Void has VUR
+VUR (Void User Repository) is a community repository where users can:
+- Upload xbps-src templates
+- Share additional packages
+- Install software not yet in the official repos

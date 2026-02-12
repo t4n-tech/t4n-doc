@@ -1,60 +1,28 @@
-# T4n OS
+# Apa Itu T4n OS?
 
-T4n OS adalah sistem operasi berbasis Linux yang dirancang untuk:
+T4n OS adalah sistem operasi Linux yang kembangkan di bawah proyek T4n Tech, dengan basis Void Linux dan pendekatan yang minimalis, cepat, dan ringan.
 
-- Performa tinggi
-- Ringan dan efisien
-- Fleksibel untuk server dan pengguna umum
-- Mudah dikembangkan
+#### T4n OS punya beberapa karakter unik:
 
----
-
-## 🎯 Tujuan
-
-T4n OS dibuat untuk:
-
-- Developer
-- Sysadmin
-- Security enthusiast
-- Pengguna Linux yang ingin kontrol penuh
-
----
-
-## 🧠 Filosofi
-
-T4n OS mengedepankan:
-
-- Kesederhanaan
-- Stabilitas
-- Transparansi
-- Efisiensi sistem
-
----
-
-## ⚙ Teknologi
-
-T4n OS dibangun di atas:
-
-- Base Linux minimal
-- Package management modern
-- Konsep modular
-- Integrasi dengan VUR
-
----
+T4n OS menggunakan:
+  - xbps sebagai package manager (binary)
+  - xbps-src untuk build dari source
+  - Sistem init: runit (bukan systemd)
+  - Filosofi: sederhana, cepat, dan ringan
 
 ## 🔥 Keunggulan
 
 - Ringan
 - Tidak bloatware
 - Struktur bersih
-- Siap untuk server dan desktop
 - Mudah dikustomisasi
 
----
+## Membawa Konsep VUR (Void User Repository)
 
-## 📌 Target Pengguna
-
-- Pengguna intermediate hingga advanced
-- Developer
-- Infrastructure engineer
-- Security researcher
+Mirip seperti:
+  - Arch Linux punya **AUR**
+  - T4n OS / Void punya **VUR**
+VUR (Void User Repository) adalah repository komunitas tempat user bisa:
+  - Upload template xbps-src
+  - Berbagi package tambahan
+  - Install software yang belum ada di repo resmi

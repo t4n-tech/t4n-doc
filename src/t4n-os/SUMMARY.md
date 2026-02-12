@@ -1,4 +1,5 @@
 # Dokumentasi T4n OS
+# T4n OS Documents
 
-- [Indonesia](t4n-os/id/intro.md)
-- [English](t4n-os/en/intro.md)
+- [Indonesia](./id/intro.md)
+- [English](./en/intro.md)
