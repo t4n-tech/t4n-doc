@@ -7,11 +7,9 @@ Tempat ini dirancang untuk membantu pengguna memahami, menggunakan, dan mengemba
 
 Dokumentasi ini mencakup:
 
-* Panduan instalasi dan penggunaan
-* Manajemen package
-* Konsep arsitektur sistem
-* Panduan pengembangan dan kontribusi
-* Best practice dan keamanan
+* Panduan Instalasi & Penggunaan
+* Troubleshooting
+* Panduan Pengembangan & Kontribusi
 
 Tujuan utamanya adalah menjadikan T4n OS mudah dipahami oleh siapa pun — baik pemula Linux maupun pengguna tingkat lanjut.
 
